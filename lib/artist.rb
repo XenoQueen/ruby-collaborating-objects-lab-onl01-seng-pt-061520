@@ -29,5 +29,5 @@ class Artist
     artist = Artist.new(artist_name)
   end
   
-  
+  def print_songs
 end
