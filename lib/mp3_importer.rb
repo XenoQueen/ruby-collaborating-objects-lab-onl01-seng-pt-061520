@@ -9,5 +9,8 @@ class MP3Importer
   def files
     files = []
     Direct.new(self.path).each do |file|
+    if
+      file.length > 4
       files << file
+      
 end
