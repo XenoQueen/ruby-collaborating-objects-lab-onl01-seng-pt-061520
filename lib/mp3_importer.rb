@@ -1,1 +1,4 @@
-class 
+class MP3Importer
+  
+  attr_accessor 
+end
