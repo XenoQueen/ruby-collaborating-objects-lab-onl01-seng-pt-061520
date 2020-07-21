@@ -8,5 +8,5 @@ class MP3Importer
   
   def files
     files = []
-    Direct.new
+    Direct.new(self.path)
 end
