@@ -12,5 +12,9 @@ class MP3Importer
     if
       file.length > 4
       files << file
-      
+    end
+    files
+  end
+  
+  def 
 end
